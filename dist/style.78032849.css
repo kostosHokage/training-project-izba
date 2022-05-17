@@ -1,0 +1,548 @@
+/* HEADER STYLES */
+
+.header {
+    height: 110px;
+    width: auto;
+    margin: 20px;
+}
+
+.header-items {
+    height: 110px;
+    width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    margin: 0px auto;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav li {
+    list-style: none;
+    padding-right: 40px;
+}
+
+.nav a {
+    color: #353333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.tel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    
+}
+
+.tel a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #353333;
+}
+
+
+
+/* КОНТЕЙНЕР */
+
+.main {
+    padding: 20px;
+}
+
+.main-container {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+
+
+.h1-dom {
+    width: 490px;
+    height: 165px;
+    font-size: 92px; 
+    font-family:'Noto Serif', serif;
+    font-weight: 500 medium;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 30px;
+    line-height: 90px ;
+    text-overflow:inherit;
+}
+
+.main-container-text p {
+    width: 620px;
+    height: 86px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 400;   
+    color: rgba(53, 51, 51, 0.9); 
+}
+
+
+.container-background {
+    margin-top: 40px;
+    background-size: 100%;
+
+}
+
+.main-content {
+    margin-top: 40px;
+    background: url(/Rectangle2.fc30192e.png) no-repeat;
+    background-size: 100%;
+    height: 670px;
+    width: auto;
+}
+
+
+
+
+
+.bullshit {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.bullshit p {
+    display: flex;
+    margin-top: 90px;
+    color:#353333E5;
+    background-color: white;
+    font-size: 24px;
+    width: 290px;
+    height: 93px;
+    line-height: 130%;
+    border: 20px  solid;
+    border-color:  white;
+}
+
+.container-img {
+    border: 20px solid;
+    border-color: white;
+    position: relative;
+    bottom: 95px;
+   
+}
+
+.main-logo {
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: 240px;
+}
+
+
+
+/* ОБЪЕКТЫ */
+
+.objects {
+    width: 1200px;
+    margin: 0px auto;
+    margin-top: 190px;
+    padding: 20px;
+}
+
+.head-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-text h1 {
+    width: auto;
+    font-family: 'Noto Serif', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;  
+    line-height: 89.2%; 
+    align-items: center;
+}
+
+.head-text-a{
+    width: auto;
+    display: flex;
+    margin: 0px auto;
+    padding-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.head-text-a a{
+    border-bottom: 1px black solid;
+}
+
+
+
+
+.container-houses {
+    display: flex;
+    width: 1200px;
+    margin: 0px auto;
+    margin-top: 100px;
+}
+
+.houses {
+    height: auto;
+    width: 280px;
+    justify-content: flex-start;
+    padding-right: 30px;
+}
+
+
+.houses h5 {
+    width: 100%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+.houses p {
+    width: auto;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+
+.podrobnee {
+    margin-top: 40px;
+}
+
+
+.podrobnee a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: rgba(53, 51, 51, 0.9);
+    text-transform: uppercase;
+}
+
+
+
+
+/* О КОМПАНИИ */
+
+
+
+.about {
+    width: 1200px;
+    margin: 0px auto;
+    margin-top: 170px;
+    padding: 20px;
+}
+
+.about-h1 {
+    margin-bottom: 70px;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 89.2%;
+}
+
+.about-content {
+    width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-text {
+    padding: 0px;
+}
+
+.about-text1 {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+    margin: 40px auto;
+}
+
+.about-text1 p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+
+
+
+
+.about-img {
+    margin-top: 5px;
+}
+
+.about-img2 {
+    width: 45%;
+}
+
+
+
+.about-content2 {
+    margin-top: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.about-text2 {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-top: 35px;
+}
+
+
+
+.about-text2 h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 140%;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.about-text2 p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+/* ФОРМА ОБРАТНОЙ СВЯЗИ */
+
+.width-color {
+    background-color: #F9F9F9;
+    margin-top: 170px;
+    height: auto;
+    margin-bottom: 170px;
+}
+
+.about-form {
+    width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: auto;
+}
+
+.left-side {
+    width: 45%;
+}
+
+.img-right-side {
+    width: 45%;
+}
+
+.left-side h1 {
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 120%;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    width: 410px;
+    background-color: rgb(249, 249, 249);
+}
+
+.form label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+
+.inputs input {
+    margin-bottom: 16px;
+    border: 1px solid black;
+    font-size: 16px;
+    font-family: 'Roboto';
+    height: 40px;
+    width: 410px;
+    padding-left: 15px;
+}
+
+
+.inputs2 input {
+    border: 1px solid black;
+    font-size: 16px;
+    font-family: 'Roboto';
+    height: 40px;
+    width: 410px;
+    margin-bottom: 40px;
+    padding-left: 15px;
+}
+
+
+.checkbox input{
+    transform:scale(1.3);
+    opacity:0.9;
+    cursor:pointer;
+}
+
+.soglasie {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.checkbox {
+    padding-right: 6px;
+}
+
+.text-cb h5{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 300;
+}
+
+
+.btn-send {
+    margin-bottom: 16px;
+}
+
+
+.btn-send button{
+    width: 344px;
+    height: 53px;
+    background-color: rgba(53, 51, 51, 1);
+    border: none;
+    color: #ffff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+}
+
+
+
+.text-under-btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    font-weight: 300;
+    color: rgba(53, 51, 51, 0.7);
+}
+
+.img-right-side {
+    background: url(/Rectangle1107.e8e743a7.png) no-repeat;
+    background-size: 100%;
+}
+
+
+/* ПРЕИМУЩЕСТВА СТРОИТЕЛЬСТВА ДЕРЕВЯННЫХ */
+
+
+
+.plusi {
+    width: 1200px;
+    margin: 0px auto;
+    margin-bottom: 170px;
+}
+
+.plusi-h1 {
+    width: 60%;
+    margin: 0px auto;
+    margin-bottom: 90px;
+}
+
+.plusi-h1 h1 {
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 120%;
+    text-align: center;
+}
+
+
+.plusi-blocks {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+
+.blocks {
+    align-items: center;
+    text-align: center;
+}
+
+
+.blocks h5{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 120%;
+    text-transform: capitalize;
+    padding-bottom: 25px;
+    margin: 0px auto;
+    height: 70px;
+}
+
+
+.blocks p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    width: 80%;
+    margin: 0px auto;
+}
+
+
+
+
+
+/*# sourceMappingURL=/style.78032849.css.map */
