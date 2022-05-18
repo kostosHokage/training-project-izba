@@ -547,3 +547,56 @@
 
 
  
+
+
+/* СЛАЙД ЛИСТ */
+
+
+.sub-menu {
+
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 70px;
+    padding-top: 30px;
+    max-width: 344px;
+
+}
+
+.elements {
+    display: none;
+    background: #FFFFFF;
+    border: 1px solid rgba(53, 51, 51, 0.1);
+    box-shadow: -3px 3px 10px rgba(29, 27, 27, 0.14);
+    border-radius: 2px;
+}
+
+.elements a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 110%;
+}
+
+.elements li {
+    padding-left: 5px;
+    border-bottom: 1px solid rgba(159, 123, 80, 0.25);
+}
+
+.elements li>a:hover {
+    background: #725C44;
+    color:rgba(255, 255, 255, 0.9);
+}
+
+.sub-menu li:not(:first-child) {
+    padding: 12px 19px;
+}
+
+.sub-menu li:first-child {
+    padding: 12px 19px;
+}
+
+.open-sub-menu:hover .elements{
+    display: block;
+}
